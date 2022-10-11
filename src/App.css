@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.emp-button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #fff;
+  background-color: #282c34;
+}
+
+.emp-button-secondary {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #fff;
+  background-color: grey;
+}
+
+.emp-button:hover {
+  background-color: #282c34;
+}
+
+.emp-button-secondary:hover{
+  background-color: #7c8088;
+}
+
+.mandatory-text{
+  color: red;
+  font-size: 12px;
+}
+
+.c-p {
+ cursor: pointer;
+}
+
+/* / scroll stylings / */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-select-maxvalues);
+  border-radius: 10px;
+}

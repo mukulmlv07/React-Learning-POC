@@ -1,0 +1,54 @@
+thead button {
+    padding: 0;
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    background-color: transparent;
+    outline: none;
+}
+
+thead button.ascending::after {
+    content: "▲";
+    color: #535151;
+    display: inline-block !important;
+    margin-left: 0.3em;
+}
+
+thead button.descending::after {
+    content: "▼";
+    color: #535151;
+    display: inline-block !important;
+    margin-left: 0.5em;
+}
+
+tbody .search-row:hover {
+    background-color: transparent;
+}
+
+tbody .search-row td {
+    padding: 0px !important;
+}
+
+/* tbody .search-row td input {
+    padding-left: 12px;
+    border: transparent;
+    border-left: 1px solid #a1bfdf;
+    outline: none;
+    overflow: visible;
+    border-radius: 0;
+} */
+
+/* tbody .search-row td input:focus {
+    box-shadow: none;
+} */
+
+tbody .search-row td:last-child {
+    border-right: 1px solid #a1bfdf;
+}
+
+tbody .search-row td .filter-clear{
+    color: grey;
+}
+tbody .search-row td .filter-clear:hover{
+    color: black;
+}

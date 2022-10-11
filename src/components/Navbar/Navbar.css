@@ -1,0 +1,19 @@
+.dropdownItem:hover {
+  background-color: unset !important;
+  color: unset !important;
+}
+
+.navbar::after {
+  background-color: unset !important;
+  display: none !important;
+}
+
+.emp-header {
+  padding: 10px !important;
+}
+
+.emp-header:hover {
+  background-color: #545c63;
+  border-radius: 4px;
+  cursor: pointer;
+}
